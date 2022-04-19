@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+
+    <link href="product.css" rel="stylesheet">
+    <!--    <link href="carousel.css" rel="stylesheet">-->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+
+    <style type="text/css">
+        .carousel-item img {
+            width: 100%;
+            margin: auto;
+            display: block;
+        }
+
+        .container-fluid {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            background: url('banner.jpg');
+            background-size: cover;
+            background-position: 0px -280px;
+
+        }
+
+        .text {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 20%;
+
+        }
+
+        #read-me {
+            font-size: 30px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+    </style>
+
+    <title>張曾瀞心的個人網頁</title>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <header class="d-flex  fixed-top py-3" style="width: 100%;   background-color: black; ">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page" style="background-color: black; ">首頁</a></li>
+                <li class="nav-item"><a href="project.html" class="nav-link active" aria-current="page" style="background-color: black;">作品</a></li>
+            </ul>
+        </header>
+    </div>
+
+
+    <div class="container-fluid d-flex text-center">
+        <div class="text">
+            <p id="read-me">張曾瀞心</p>
+        </div>
+    </div>
+
+
+
+    <hr>
+
+    <!-- START THE FEATURETTES -->
+
+    <div class="row featurette " style=" align-items: center; background-color: rgb(33,37,41); height:600px;">
+        <div class="col-md-6 order-md-3 text-center" style="color: white;">
+            <h2 >自走車</h2>
+             <p class="lead">這整個作品結合了其他軟硬體，例如：onshape設計木板的切割、在Arduino上設定發射端和接收端，程式的部分還要設計搖桿對應到四顆馬達的轉向。
+             </p>
+        </div>
+        <div class="col-md-4 order-md-2">
+           <video src="data/car.mp4" controls style="width: 500px; height:500px;"></video>
+        </div>
+                <div class="col-md-2 order-md-1 " style="width:150px;">
+        </div>
+    </div>
+
+
+  <div class="row featurette" style=" align-items: center; height:600px;">
+        <div class="col-md-1" style="width:100px;">
+        </div>
+        <div class="col-md-5 text-left">
+            <h2>機場模擬小遊戲</h2>
+            <p class="lead">藉由一個現有的題目情境，使用 C++ 進行解題，目的是依據題目所給的條件來作模擬，進而完成一個小遊戲，透過這個過程訓練自己的邏輯思維能力。</p>
+        </div>
+        <div class="col-md-1" style="width:70px;">
+        </div>
+        <div class="col-md-5 ">
+            <img src="data/airplane_game.jpeg" alt="" style="width:600px; height:350px;">
+        </div>
+    </div>
+
+  
+    <div class="row featurette" style=" align-items: center; background-color: rgb(33,37,41); height:600px;">
+        <div class="col-md-1 order-md-3" style="width:100px;">
+        </div>
+        <div class="col-md-5 order-md-2 text-left" style="color: white;">
+            <h2>可愛動物分類器</h2>
+            <p class="lead">現在人工智慧漸漸走入人類的世界，舉凡在醫療、經濟股市和生活層面，都會發現AI的影子，這讓我相當好奇而想進一步去探索。
+    在這個自主學習計畫中，老師帶領我學習CNN，瞭解電腦處理圖片的方式與原理，粗略理解最近有名的圍棋機器人alphago原來也是使用影像處理的方式進行，只是沒有pooling的動作而已。老師引導我去認識有關AI知識後，一步步地指導我利用python做一個關於監督式學習的小作品。
+    我發現人工智慧的領域很廣，很值得我上大學後認真的去學習並研究它。</p>
+        </div>
+
+        <div class="col-md-6 order-md-1">
+            <img src="data/cat_cnn.jpeg" style="border:1px solid;width:600px; height:300px; margin:auto; display: block;" alt="">
+        </div>
+
+
+    </div>
+
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+</body>
+
+</html>
+
+</body>
+
+</html>
